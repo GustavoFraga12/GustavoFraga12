@@ -1,4 +1,11 @@
-int alcool = 0;
+import java.util.Scanner;
+public class main3 {
+    
+    public static void main(String[] args) {
+    
+        Scanner sc = new Scanner(System.in);
+
+        int alcool = 0;
         int gasolina = 0;
         int diesel = 0;
         int tipo = sc.nextInt();
@@ -21,3 +28,7 @@ int alcool = 0;
         System.out.println("Álcool:" + alcool);
         System.out.println("Gasolina:" + gasolina);
         System.out.println("Diesel:" + diesel);
+        
+        sc.close();
+    }       
+}
